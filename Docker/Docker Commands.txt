@@ -1,0 +1,793 @@
+docker run -itd -p "1234:80" --name "container" httpd
+
+docker run -itd -p "5678:80" --name "nginx" nginx
+
+docker exec -it 4dd9254ef724 /bin/bash
+
+docker exec -it a57b01fa4f35 /bin/bash
+
+
+docker exec -it 0d2b420c499f /bin/bash 
+
+
+
+
+docker rm /nginx
+
+
+
+
+
+
+usr/share/nginx/html
+
+usr/local/apache2/htdocs/index/index.html
+
+
+
+
+    1  history
+    2  cd /opt
+    3  history
+    4  cd htdocs
+    5  docker exec -it 340907a45cce /bin/bash
+    6  cd htdocs
+    7  ls
+    8  ls -l
+    9  docker --version
+   10  whoami
+   11  cd /opt
+   12  docker --version
+   13  docker ps
+   14  exit
+   15  cd htdocs/
+   16  echo "Welcome to Docker"
+   17  exit
+   18  docker ps
+   19  cd htdocs/
+   20  vi --version
+   21  vim --version
+   22  sudo apt install vim
+   23  usr/local/apache2/htdocs/index
+   24  cd usr/local/apache2/htdocs/index
+   25  cd usr/local/apache2/htdo
+   26  ls
+   27  apt install vim
+   28  ls
+   29  vim index.html
+   30  apt update
+   31  vim index.html
+   32  apt install vim
+   33  vim index.html
+   34  history
+
+
+ 1  ls
+    2  cd /opt
+    3  ls
+    4  docker ps
+    5  docker exec -it 340907a45cce /bin/bash
+    6  ls
+    7  docker exec -it 340907a45cce /bin/bash
+    8  docker pull nginx
+    9  docker run -itd -p "5678:80" --name "nginx" httpd
+   10  docker ps
+   11  sudo apt install vim
+   12  vm --version
+   13  vim -version
+   14  vim
+   15  docker ps
+   16  docker exec -it cdcab4ba2c89 /bin/bash
+   17  vim --version
+   18  vi --version
+   19  history
+   20  vi --version
+   21  docker exec -it 340907a45cce /bin/bash
+   22  exit
+   23  ls
+   24  cd /usr/
+   25  l
+   26  cd /share
+   27  ls
+   28  cd /share
+   29  ls
+   30  cd /share
+   31  cd /local
+   32  cd local/
+   33  ls
+   34  cd /share
+   35  ls
+   36  cd /share
+   37  cd /etc/
+   38  ls
+   39  exit
+   40  apt update
+   41  clear
+   42  cd opt
+   43  cd /opt
+   44  ls
+   45  ls -l
+   46  pwd
+   47  apt install docker.io
+   48  ls
+   49  docker images
+   50  docker ps
+   51  docker pull httpd
+   52  docker images
+   53  docker ps
+   54  docker images
+   55  clear
+   56  docker run -itd -p "1234:80" --name "container" httpd
+   57  docker images
+   58  docker ps
+   59  docker run -itd -p "1234:80" --name "container" httpd
+   60  docker run -itd --name httpdcont1 -p "8090:80" httpd
+   61  docker ps
+   62  docker --version
+   63  docker run -itd -name httpdcont1 -p "8090:80" httpd
+   64  docker run -itd -name test -p "1234:80" httpd
+   65  docker run -itd --name test -p "1234:80" httpd
+   66  sudo restart apache2
+   67  docker run -itd --name test -p "5678:80" httpd
+   68  docker ps
+   69  docker run -itd --name sathya -p "5678:80" httpd
+   70  docker ps
+   71  docker stop nginx
+   72  docker ps
+   73  docker ps -a
+   74  history
+
+  docker ps
+   71  docker stop nginx
+   72  docker ps
+   73  docker ps -a
+   74  history
+   75  dockwer ps
+   76  docker ps
+   77  docker images
+   78  docker rm nginx
+   79  docker ps
+   80  docker rm httpd
+   81  docker stop httpd
+   82  docker stop 340907a45cce
+   83  docker ps
+   84  docker rm 340907a45cce
+   85  docker ps
+   86  history
+
+
+1  ls
+    2  cd /opt
+    3  ls
+    4  docker ps
+    5  docker exec -it 340907a45cce /bin/bash
+    6  ls
+    7  docker exec -it 340907a45cce /bin/bash
+    8  docker pull nginx
+    9  docker run -itd -p "5678:80" --name "nginx" httpd
+   10  docker ps
+   11  sudo apt install vim
+   12  vm --version
+   13  vim -version
+   14  vim
+   15  docker ps
+   16  docker exec -it cdcab4ba2c89 /bin/bash
+   17  vim --version
+   18  vi --version
+   19  history
+   20  vi --version
+   21  docker exec -it 340907a45cce /bin/bash
+   22  exit
+   23  ls
+   24  cd /usr/
+   25  l
+   26  cd /share
+   27  ls
+   28  cd /share
+   29  ls
+   30  cd /share
+   31  cd /local
+   32  cd local/
+   33  ls
+   34  cd /share
+   35  ls
+   36  cd /share
+   37  cd /etc/
+   38  ls
+   39  exit
+   40  apt update
+   41  clear
+   42  cd opt
+   43  cd /opt
+   44  ls
+   45  ls -l
+   46  pwd
+   47  apt install docker.io
+   48  ls
+   49  docker images
+   50  docker ps
+   51  docker pull httpd
+   52  docker images
+   53  docker ps
+   54  docker images
+   55  clear
+   56  docker run -itd -p "1234:80" --name "container" httpd
+   57  docker images
+   58  docker ps
+   59  docker run -itd -p "1234:80" --name "container" httpd
+   60  docker run -itd --name httpdcont1 -p "8090:80" httpd
+   61  docker ps
+   62  docker --version
+   63  docker run -itd -name httpdcont1 -p "8090:80" httpd
+   64  docker run -itd -name test -p "1234:80" httpd
+   65  docker run -itd --name test -p "1234:80" httpd
+   66  sudo restart apache2
+   67  docker run -itd --name test -p "5678:80" httpd
+   68  docker ps
+   69  docker run -itd --name sathya -p "5678:80" httpd
+   70  docker ps
+   71  docker stop nginx
+   72  docker ps
+   73  docker ps -a
+   74  history
+   75  dockwer ps
+   76  docker ps
+   77  docker images
+   78  docker rm nginx
+   79  docker ps
+   80  docker rm httpd
+   81  docker stop httpd
+   82  docker stop 340907a45cce
+   83  docker ps
+   84  docker rm 340907a45cce
+   85  docker ps
+   86  history
+   87  docker images
+   88  docker rm nginx
+   89  docker rm d453dd892d93
+   90  docker rmi httpd
+   91  docker ps
+   92  docker images
+   93  docker rm nginx
+   94  docker rmi d453dd892d93
+   95  docker rm 6fd77d7e5eb7
+   96  docker images
+   97  docker rmi  6fd77d7e5eb7
+   98  docker imsges
+   99  dockder ps
+  100  docker ps
+  101  docker images
+  102  docker rmi httpd
+  103  docker rmi 6fd77d7e5eb7
+  104  docker imsges
+  105  docker images
+  106  docker rmi 6fd77d7e5eb7
+  107  docker rmi -f 6fd77d7e5eb7
+  108  docker images
+  109  history
+
+
+
+Docker Day 2
+
+DockerFile
+DockerRegistry
+Docker File Syntax
+
+from
+maintainer
+run
+add
+env
+entrypoint
+cmd
+expose
+volume
+wokrdir
+user
+
+From tomcat:latest
+
+MAINTAINER sathya
+
+ENV CATALINA_HOME /usr/local/tomcat
+ENV PATH $CATALINA_HOME/bin:$path
+EXPOSE 8080
+CMD ["catalina.sh", "run"]
+
+
+docker build -t my-tomcat .
+
+
+docker run -itd -p "5678:8080" --name "my-tomcat-latest" tomcat
+
+ 
+
+docker exec -it 0d2b420c499f  /bin/bash
+
+
+   1  ls
+    2  cd webapps
+    3  wget https://tomcat.apache.org/tomcat-7.0-doc/appdev/sample/
+    4  ls
+    5  wget https://tomcat.apache.org/tomcat-7.0-doc/appdev/sample/sample.war
+    6  ls
+
+
+
+
+sathyamoorthysabapathy
+
+
+
+ 1  ls
+    2  cd /opt
+    3  ls
+    4  docker ps
+    5  docker exec -it 340907a45cce /bin/bash
+    6  ls
+    7  docker exec -it 340907a45cce /bin/bash
+    8  docker pull nginx
+    9  docker run -itd -p "5678:80" --name "nginx" httpd
+   10  docker ps
+   11  sudo apt install vim
+   12  vm --version
+   13  vim -version
+   14  vim
+   15  docker ps
+   16  docker exec -it cdcab4ba2c89 /bin/bash
+   17  vim --version
+   18  vi --version
+   19  history
+   20  vi --version
+   21  docker exec -it 340907a45cce /bin/bash
+   22  exit
+   23  ls
+   24  cd /usr/
+   25  l
+   26  cd /share
+   27  ls
+   28  cd /share
+   29  ls
+   30  cd /share
+   31  cd /local
+   32  cd local/
+   33  ls
+   34  cd /share
+   35  ls
+   36  cd /share
+   37  cd /etc/
+   38  ls
+   39  exit
+   40  apt update
+   41  clear
+   42  cd opt
+   43  cd /opt
+   44  ls
+   45  ls -l
+   46  pwd
+   47  apt install docker.io
+   48  ls
+   49  docker images
+   50  docker ps
+   51  docker pull httpd
+   52  docker images
+   53  docker ps
+   54  docker images
+   55  clear
+   56  docker run -itd -p "1234:80" --name "container" httpd
+   57  docker images
+   58  docker ps
+   59  docker run -itd -p "1234:80" --name "container" httpd
+   60  docker run -itd --name httpdcont1 -p "8090:80" httpd
+   61  docker ps
+   62  docker --version
+   63  docker run -itd -name httpdcont1 -p "8090:80" httpd
+   64  docker run -itd -name test -p "1234:80" httpd
+   65  docker run -itd --name test -p "1234:80" httpd
+   66  sudo restart apache2
+   67  docker run -itd --name test -p "5678:80" httpd
+   68  docker ps
+   69  docker run -itd --name sathya -p "5678:80" httpd
+   70  cd /opt
+   71  ls
+   72  docker images
+   73  docker container
+   74  docker run -itd --name httpdcont1 -p "8090:80" httpd
+   75  docker run -itd --name sathya -p "8090:80" httpd
+   76  opt updatew
+   77  opt update
+   78  ls
+   79  docker install
+   80  apt update
+   81  ls
+   82  cd ../
+   83  ls
+   84  clear
+   85  apt install docker.io
+   86  cd /opt
+   87  ls
+   88  clear
+   89  apt install docker.io
+   90  docker images
+   91  docker container
+   92  docker ps
+   93  docker pull httpd
+   94  docker ps
+   95  docker run -itd -p "1234:80" --name "default" httpd
+   96  docker run -itd -p "0123:80" --name "default" httpd
+   97  docker run -itd -p "0123:80" --name "test1" httpd
+   98  docker ps
+   99  docker rm /test1
+  100  docker images
+  101  docker ps
+  102  docker run -itd -p "12234:80" --name "conatiner" httpd
+  103  docker ps
+  104  ls
+  105  docker ps
+  106  docker exec -it a57b01fa4f35 /bin/bash
+  107  lsa
+  108  ls
+  109  docker ps
+  110  docker exec -it 4dd9254ef724 /bin/bash
+  111  docker ps
+  112  docker exec -it 340907a45cce /bin/bash
+  113  docker pull nginx
+  114  docker rm /nginx
+  115  docker rm /nginx -f
+  116  docker ps
+  117  docker run -itd -p "5678:80" --name "nginx" nginx
+  118  docker ps
+  119  docker images
+  120  docker exec -it a57b01fa4f35 /bin/bash
+  121  sudo apt install vim
+  122  ls
+  123  sudo -i
+  124  apt update
+  125  docker ps
+  126  docker exec -it cdcab4ba2c89 /bin/bash
+  127  cd /opt/
+  128  ls
+  129  docker pull nginx
+  130  ls
+  131  docker ps
+  132  docker run -itd -p "5678:80" --name "nginx1" httpd
+  133  docker run -itd -p "1111:80" --name "nginx1" httpd
+  134  docker ps
+  135  docker rm /nginx
+  136  docker rm -f /nginx
+  137  docker ps
+  138  docker pull nginx
+  139  docker ps
+  140  docker run -itd -p "5678:80" --name "nginx" httpd
+  141  docker ps
+  142  cd ../
+  143  ls
+  144  docker exec -it 4dd9254ef724 /bin/bash
+  145  sudo -i
+  146  sudoo -i
+  147  sudo -i
+  148  cd usr
+  149  docker ps
+  150  docker exec -it cdcab4ba2c89 /bin/bash
+  151  apt upadte
+  152  sudo -i
+  153  docker ps
+  154  docker images
+  155  docker ps
+  156  docker rm conatiner
+  157  docker rm -f conatiner
+  158  docker ps
+  159  history
+  160  dockere run -itd -p "1234:80" --name "container" httpd^C
+  161  dockere run -itd -p "1234:80" --name "container" httpd
+  162  docker run -itd -p "1234:80" --name "container" httpd
+  163  docker ps
+  164  docker images
+  165  docker run -itd -p "1234:80" --name "dockerday2" httpd
+  166  docker images
+  167  docker ps
+  168  cd /opt
+  169  vi Dockerfile
+  170  ls
+  171  docker build -t my-tomcat .
+  172  vi Dockerfile
+  173  docker build -t my-tomcat .
+  174  docker images
+  175  docker run -itd -p "1234:8080" --name "mytomcat" tomcat
+  176  docker run -itd -p "5678:8080" --name "mytomcat" tomcat
+  177  docker run -itd -p "5678:8080" --name "my-tomcat-latest" tomcat
+  178  docker images
+  179  docker exec -it c2ad65cf71b1 /bin/bash
+  180  docker exec -it f42b2599b503 /bin/bash
+  181  docker ps
+  182  docker exec -it 0d2b420c499f  /bin/bash
+  183  ls
+  184  docker ps
+  185  docker exec -it 0d2b420c499f /bin/bash
+  186  apt install vim
+  187  docker exec -it 0d2b420c499f /bin/bash
+  188  docker ps
+  189  docker commnit 0d2b420c499f  tomcat
+  190  docker commit 0d2b420c499f tomcat
+  191  docker save -o tomcat.tar tomcat
+  192  docker load -i tomcat.tar
+  193  docker images
+  194  docker login
+  195  docker tag tomcat SathyaMoorthySabapathy/tomcat
+  196  docker tag tomcat SathyaMoorthySabapathy/tomcat/latest
+  197  docker tag tomcat sathyamoorthysabapathy/tomcat
+  198  docker push sathyamoorthysabapathy/tomcat
+
+
+tomcat                          latest    26ae03136776   29 minutes ago      560MB
+sathyamoorthysabapathy/tomcat   latest    26ae03136776   29 minutes ago      560MB
+my-tomcat                       latest    c2ad65cf71b1   About an hour ago   454MB
+tomcat                          <none>    f42b2599b503   2 weeks ago         454MB
+httpd   
+
+
+docker run -itd -p "8888:8080" --name "my-jenkins" jenkins/jenkins
+
+
+
+ 1  ls
+    2  cd /opt
+    3  ls
+    4  docker ps
+    5  docker exec -it 340907a45cce /bin/bash
+    6  ls
+    7  docker exec -it 340907a45cce /bin/bash
+    8  docker pull nginx
+    9  docker run -itd -p "5678:80" --name "nginx" httpd
+   10  docker ps
+   11  sudo apt install vim
+   12  vm --version
+   13  vim -version
+   14  vim
+   15  docker ps
+   16  docker exec -it cdcab4ba2c89 /bin/bash
+   17  vim --version
+   18  vi --version
+   19  history
+   20  vi --version
+   21  docker exec -it 340907a45cce /bin/bash
+   22  exit
+   23  ls
+   24  cd /usr/
+   25  l
+   26  cd /share
+   27  ls
+   28  cd /share
+   29  ls
+   30  cd /share
+   31  cd /local
+   32  cd local/
+   33  ls
+   34  cd /share
+   35  ls
+   36  cd /share
+   37  cd /etc/
+   38  ls
+   39  exit
+   40  apt update
+   41  clear
+   42  cd opt
+   43  cd /opt
+   44  ls
+   45  ls -l
+   46  pwd
+   47  apt install docker.io
+   48  ls
+   49  docker images
+   50  docker ps
+   51  docker pull httpd
+   52  docker images
+   53  docker ps
+   54  docker images
+   55  clear
+   56  docker run -itd -p "1234:80" --name "container" httpd
+   57  docker images
+   58  docker ps
+   59  docker run -itd -p "1234:80" --name "container" httpd
+   60  docker run -itd --name httpdcont1 -p "8090:80" httpd
+   61  docker ps
+   62  docker --version
+   63  docker run -itd -name httpdcont1 -p "8090:80" httpd
+   64  docker run -itd -name test -p "1234:80" httpd
+   65  docker run -itd --name test -p "1234:80" httpd
+   66  sudo restart apache2
+   67  docker run -itd --name test -p "5678:80" httpd
+   68  docker ps
+   69  docker run -itd --name sathya -p "5678:80" httpd
+   70  cd /opt
+   71  ls
+   72  docker images
+   73  docker container
+   74  docker run -itd --name httpdcont1 -p "8090:80" httpd
+   75  docker run -itd --name sathya -p "8090:80" httpd
+   76  opt updatew
+   77  opt update
+   78  ls
+   79  docker install
+   80  apt update
+   81  ls
+   82  cd ../
+   83  ls
+   84  clear
+   85  apt install docker.io
+   86  cd /opt
+   87  ls
+   88  clear
+   89  apt install docker.io
+   90  docker images
+   91  docker container
+   92  docker ps
+   93  docker pull httpd
+   94  docker ps
+   95  docker run -itd -p "1234:80" --name "default" httpd
+   96  docker run -itd -p "0123:80" --name "default" httpd
+   97  docker run -itd -p "0123:80" --name "test1" httpd
+   98  docker ps
+   99  docker rm /test1
+  100  docker images
+  101  docker ps
+  102  docker run -itd -p "12234:80" --name "conatiner" httpd
+  103  docker ps
+  104  ls
+  105  docker ps
+  106  docker exec -it a57b01fa4f35 /bin/bash
+  107  lsa
+  108  ls
+  109  docker ps
+  110  docker exec -it 4dd9254ef724 /bin/bash
+  111  docker ps
+  112  docker exec -it 340907a45cce /bin/bash
+  113  docker pull nginx
+  114  docker rm /nginx
+  115  docker rm /nginx -f
+  116  docker ps
+  117  docker run -itd -p "5678:80" --name "nginx" nginx
+  118  docker ps
+  119  docker images
+  120  docker exec -it a57b01fa4f35 /bin/bash
+  121  sudo apt install vim
+  122  ls
+  123  sudo -i
+  124  apt update
+  125  docker ps
+  126  docker exec -it cdcab4ba2c89 /bin/bash
+  127  cd /opt/
+  128  ls
+  129  docker pull nginx
+  130  ls
+  131  docker ps
+  132  docker run -itd -p "5678:80" --name "nginx1" httpd
+  133  docker run -itd -p "1111:80" --name "nginx1" httpd
+  134  docker ps
+  135  docker rm /nginx
+  136  docker rm -f /nginx
+  137  docker ps
+  138  docker pull nginx
+  139  docker ps
+  140  docker run -itd -p "5678:80" --name "nginx" httpd
+  141  docker ps
+  142  cd ../
+  143  ls
+  144  docker exec -it 4dd9254ef724 /bin/bash
+  145  sudo -i
+  146  sudoo -i
+  147  sudo -i
+  148  cd usr
+  149  docker ps
+  150  docker exec -it cdcab4ba2c89 /bin/bash
+  151  apt upadte
+  152  sudo -i
+  153  docker ps
+  154  docker images
+  155  docker ps
+  156  docker rm conatiner
+  157  docker rm -f conatiner
+  158  docker ps
+  159  history
+  160  dockere run -itd -p "1234:80" --name "container" httpd^C
+  161  dockere run -itd -p "1234:80" --name "container" httpd
+  162  docker run -itd -p "1234:80" --name "container" httpd
+  163  docker ps
+  164  docker images
+  165  docker run -itd -p "1234:80" --name "dockerday2" httpd
+  166  docker images
+  167  docker ps
+  168  cd /opt
+  169  vi Dockerfile
+  170  ls
+  171  docker build -t my-tomcat .
+  172  vi Dockerfile
+  173  docker build -t my-tomcat .
+  174  docker images
+  175  docker run -itd -p "1234:8080" --name "mytomcat" tomcat
+  176  docker run -itd -p "5678:8080" --name "mytomcat" tomcat
+  177  docker run -itd -p "5678:8080" --name "my-tomcat-latest" tomcat
+  178  docker images
+  179  docker exec -it c2ad65cf71b1 /bin/bash
+  180  docker exec -it f42b2599b503 /bin/bash
+  181  docker ps
+  182  docker exec -it 0d2b420c499f  /bin/bash
+  183  ls
+  184  docker ps
+  185  docker exec -it 0d2b420c499f /bin/bash
+  186  apt install vim
+  187  docker exec -it 0d2b420c499f /bin/bash
+  188  docker ps
+  189  docker commnit 0d2b420c499f  tomcat
+  190  docker commit 0d2b420c499f tomcat
+  191  docker save -o tomcat.tar tomcat
+  192  docker load -i tomcat.tar
+  193  docker images
+  194  docker login
+  195  docker tag tomcat SathyaMoorthySabapathy/tomcat
+  196  docker tag tomcat SathyaMoorthySabapathy/tomcat/latest
+  197  docker tag tomcat sathyamoorthysabapathy/tomcat
+  198  docker push sathyamoorthysabapathy/tomcat
+  199  history
+  200  docker images
+  201  dockerr images
+  202  docker images
+  203  docker rmi tomcat sathyamoorthysabapathy/tomcat my-tomcat tomcat httpd
+  204  docker images
+  205  docker rmi tomcat httpd
+  206  docker images
+  207  docker ps
+  208  docker rmi tomcat
+  209  docker iamges
+  210  docker images
+  211  docker pull sathyamoorthysabapathy/tomcat
+  212  docker images
+  213  docker ps
+  214  docker images
+  215  docker pull jenkins/jenkins
+  216  docker images
+  217  docker run -itd -p "8888:8080" --name "my-jenkins" jenkins/jenkins
+
+
+docker containeraccess
+docker link
+
+
+Day3 
+
+
+172.18.0.2
+
+172.18.0.3
+
+"172.19.0.2
+
+
+1  docker --version
+    2  systemctl docker status
+    3  systemctl status docker
+    4  yum install git -y
+   
+    6  ls
+    7  cd spring-boot-with-compose-new/
+    8  ls
+    9  history
+   10  docker --version
+   11      2  systemctl docker status
+   12      3  systemctl status docker
+   13      4  yum install git -y
+   14      
+   15      6  ls
+   16      7  cd spring-boot-with-compose-new/
+   17      8  ls
+   18      9  history
+   19  clera
+   20  docker build -spring-boot-mysql-app .
+   21  docker build -t spring-boot-mysql-app .
+   22  docker image ls
+   23  history
+   24  sudo docker swarm init --advertise-addr 35.93.161.237
+
+
+
